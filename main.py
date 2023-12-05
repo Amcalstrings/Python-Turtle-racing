@@ -27,7 +27,7 @@ if user_choice:
 while race_on:
 
     for turtle in all_turtles:
-        if turtle.xcor() > 228:
+        if turtle.xcor() > 220:
             race_on = False
             winning_color = turtle.pencolor()
             if user_choice == winning_color:
